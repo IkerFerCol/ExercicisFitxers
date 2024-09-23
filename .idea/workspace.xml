@@ -4,18 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9e250e7e-8302-452f-8b6a-c607db9021bd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/E2/E2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/E2/src/E2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/E3/E3.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExercicisFitxers.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/E1.java" afterDir="false" />
+    <list default="true" id="9e250e7e-8302-452f-8b6a-c607db9021bd" name="Changes" comment="20/09/24">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOCS/Fotografias/astronauta.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOCS/Fotografias/bisontes.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOCS/Fotografias/boxeo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOCS/Fotografias/brooklyn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOCS/Fotografias/desigualdad.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOCS/Fotografias/einstein.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOCS/Fotografias/hubble.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOCS/Fotografias/negro.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOCS/Fotografias/reina.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOCS/Fotografias/titanic.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOCS/Fotografias/tsunami.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOCS/Fotografias/warishell.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOCS/Libros/coplas_manrique.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOCS/Libros/fuenteovejuna_lopevega.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOCS/Libros/lazarillo.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOCS/Libros/quijote_cervantes.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOCS/Libros/vida_unamuno.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/E3/src/E3.java" beforeDir="false" afterPath="$PROJECT_DIR$/E3/src/E3.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,9 +33,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;IkerFerCol&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/IkerFerCol/ExercicisFitxers&quot;,
+    &quot;accountId&quot;: &quot;70e3274f-c891-4d70-ac6d-05a9eef6f0d1&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2mKcA8j19HJzRcYBOAZCPhVtzhc" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -49,6 +69,7 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "onboarding.tips.debug.path": "/home/ikefercol/IdeaProjects/ExercicisFitxers/E3/src/Main.java",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -68,11 +89,44 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1726828561890</updated>
-      <workItem from="1726828562898" duration="4663000" />
+      <workItem from="1726828562898" duration="4797000" />
+      <workItem from="1727078111081" duration="1009000" />
     </task>
+    <task id="LOCAL-00001" summary="20/09/24">
+      <option name="closed" value="true" />
+      <created>1726833277238</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1726833277238</updated>
+    </task>
+    <task id="LOCAL-00002" summary="20/09/24">
+      <option name="closed" value="true" />
+      <created>1726833348387</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1726833348387</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="20/09/24" />
+    <option name="LAST_COMMIT_MESSAGE" value="20/09/24" />
   </component>
 </project>

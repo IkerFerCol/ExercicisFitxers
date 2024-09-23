@@ -1,6 +1,7 @@
 
 import java.io.File;
 import java.io.IOException;
+import java.io.StreamCorruptedException;
 import java.util.Arrays;
 import java.util.Comparator;
 
@@ -44,13 +45,15 @@ public class E3 {
 
 // Creem dos objectes de tipus File on assignem la ruta d'origen i la ruta destí. // (PER A LA CARPETA FOTOGRAFIAS) i canviem el nom
 
-        File OrigenFoto = new File("Documentos/Fotografias");
-        File DestiFoto = new File("FOTOS");
+        File OrigenFoto = new File("DOCS/Fotografias");
+        File DestiFoto = new File("DOCS/FOTOS");
+        OrigenFoto.renameTo(DestiFoto);
 
 // Creem dos objectes de tipus File on assignem la ruta d'origen i la ruta destí. // (PER A LA CARPETA LIBROS) i canviem el nom
 
-        File OrigenLectures = new File("Documentos/Libros");
-        File DestiLectures = new File("LECTURES");
+        File OrigenLectures = new File("DOCS/Libros");
+        File DestiLectures = new File("DOCS/LECTURES");
+        OrigenLectures.renameTo(DestiLectures);
 
 
         /* **********************************************************
@@ -58,19 +61,19 @@ public class E3 {
          ********************************************************** */
 
         // ABANS d'eliminar les extensions, imprimim la llista d'arxius ordenada cridant a la funció imprimirLlistaArxius()
-        File[] ficheros = docDesti.listFiles();
-        Arrays.sort(ficheros);
-        ImprimirLlistaArxius(ficheros);
+        Arrays.sort(docDesti.listFiles());
+        ImprimirLlistaArxius(docDesti);
 
 
 // Reanomenem els arxius, llenvant les Extensions cridant a la funció llevarExtensionsArxius()
-        String[] ficheroantes;
+        llevarExtensionsArxius(DestiLectures);
 
 
 
 
 // DESPRES d'eliminar les extensions, imprimim de nou la llista d'arxius ordenadacridant a la funció imprimirLlistaArxius()
 
+        ImprimirLlistaArxius(DestiLectures);
 
     } // del main()
 
@@ -81,8 +84,10 @@ public class E3 {
      *
      */
 
-    static void ImprimirLlistaArxius(File[] ficheros) {
-        for (File fichero : ficheros) {
+    static void ImprimirLlistaArxius(File ficheros) {
+        File[] archivos = ficheros.listFiles();
+        Arrays.sort(archivos);
+        for (File fichero : archivos) {
             System.out.println(fichero.getName());
         }
     }
@@ -92,13 +97,15 @@ public class E3 {
      * LLEVAR EXTENSIONS ARXIUS
      *
      */
-    static void LlevarExtensions(File[] files, File fotos){
-        String[] extensions;
+    public static void llevarExtensionsArxius(File ruta) {
 
-        for (File fichero : files) {
-            extensions = fotos.getName().split("\\.");
+        for (File fichero : ruta.listFiles()) {
+            String[] extensions = fichero.getName().split("\\.");
+            File destino = new File(fichero.getParent() + "/" + extensions[0]);
+            fichero.renameTo(destino);
         }
     }
+
 
 
 } // de la classe
