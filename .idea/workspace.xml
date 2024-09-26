@@ -4,26 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9e250e7e-8302-452f-8b6a-c607db9021bd" name="Changes" comment="20/09/24">
+    <list default="true" id="9e250e7e-8302-452f-8b6a-c607db9021bd" name="Changes" comment="23/09/24">
+      <change afterPath="$PROJECT_DIR$/E4/E4.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/E5/E5.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DOCS/Fotografias/astronauta.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DOCS/Fotografias/bisontes.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DOCS/Fotografias/boxeo.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DOCS/Fotografias/brooklyn.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DOCS/Fotografias/desigualdad.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DOCS/Fotografias/einstein.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DOCS/Fotografias/hubble.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DOCS/Fotografias/negro.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DOCS/Fotografias/reina.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DOCS/Fotografias/titanic.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DOCS/Fotografias/tsunami.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DOCS/Fotografias/warishell.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DOCS/Libros/coplas_manrique.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DOCS/Libros/fuenteovejuna_lopevega.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DOCS/Libros/lazarillo.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DOCS/Libros/quijote_cervantes.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DOCS/Libros/vida_unamuno.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/E3/src/E3.java" beforeDir="false" afterPath="$PROJECT_DIR$/E3/src/E3.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,25 +39,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.E2.executor": "Run",
-    "Application.E3.executor": "Run",
-    "Application.Main.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "/home/ikefercol/IdeaProjects/ExercicisFitxers/E3/src/Main.java",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.E2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.E3.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;/home/ikefercol/IdeaProjects/ExercicisFitxers/e5/src/Main.java&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -90,7 +75,11 @@
       <option name="presentableId" value="Default" />
       <updated>1726828561890</updated>
       <workItem from="1726828562898" duration="4797000" />
-      <workItem from="1727078111081" duration="1009000" />
+      <workItem from="1727078111081" duration="1328000" />
+      <workItem from="1727331140720" duration="384000" />
+      <workItem from="1727332544617" duration="33000" />
+      <workItem from="1727332857924" duration="330000" />
+      <workItem from="1727333809496" duration="7000" />
     </task>
     <task id="LOCAL-00001" summary="20/09/24">
       <option name="closed" value="true" />
@@ -108,7 +97,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726833348387</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="23/09/24">
+      <option name="closed" value="true" />
+      <created>1727079311451</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1727079311451</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -127,6 +124,18 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="20/09/24" />
-    <option name="LAST_COMMIT_MESSAGE" value="20/09/24" />
+    <MESSAGE value="23/09/24" />
+    <option name="LAST_COMMIT_MESSAGE" value="23/09/24" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/E5/src/Main.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
